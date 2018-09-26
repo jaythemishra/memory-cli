@@ -1,0 +1,6 @@
+How to compile and run the game in terminal:
+c++ -c main.cpp && c++ main.o && ./a.out
+
+Memory is a pretty simple game so I didn't use any elaborate data structures or algorithms, and kept all the code in one file. I created a vector of integers for the sole purpose of randomly ordering the cards. I also used an array of card structures that stored all the game data.
+
+I decided to use C++ simply because it's one of the first languages I learned and one of the ones I'm most comfortable with. The external libraries I used were: <iostream> (for outputting text to the command line), <vector> (so I could use the STL vector data structure), and <algorithm>, <random>, and <chrono> (all used to randomize the order of cards).
